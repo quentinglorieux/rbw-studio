@@ -9,6 +9,11 @@ export default {
       title: 'Title'
     },
     {
+      name: 'Second_title',
+      type: 'string',
+      title: 'Second Title'
+    },
+    {
       name: 'slug',
       type: 'slug',
       title: 'Permalink',
