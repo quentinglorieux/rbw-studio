@@ -4,13 +4,12 @@ import createSchema from 'part:@sanity/base/schema-creator'
 // Then import schema types from any plugins that might expose them
 import schemaTypes from 'all:part:@sanity/base/schema-type'
 
-import author from './author'
 import page from './page'
 import post from './post'
+import research from './research'
+import member from './member'
 import route from './route'
 import navigation from './navigation'
-import category from './category'
-import comment from './comment'
 
 import meta from './objects/meta'
 import content from './objects/content'
@@ -26,11 +25,10 @@ export default createSchema({
   types: schemaTypes.concat([
     /* Your types here! */
     post,
-    category,
-    comment,
     page,
+    research,
+    member,
     route,
-    /* author, */
     navigation,
     meta,
     content,

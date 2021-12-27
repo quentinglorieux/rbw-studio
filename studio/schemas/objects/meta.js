@@ -4,7 +4,7 @@ export default {
   title: 'Meta',
   fields: [
     {
-      name: 'hidden',
+      name: 'hidden2',
       type: 'boolean',
       title: 'Hide post',
     },
@@ -17,17 +17,6 @@ export default {
       name: 'unpublishedAt',
       type: 'datetime',
       title: 'Unpublish at…'
-    },
-    {
-      name: 'categories',
-      type: 'array',
-      title: 'Categories',
-      of: [
-        {
-          type: 'reference',
-          to: [{type: 'category'}]
-        }
-      ]
     },
     {
       name: 'tags',

@@ -30,6 +30,14 @@
     {
       "name": "part:@sanity/desk-tool/structure",
       "path": "./src/structure/deskStructure.js"
+    },
+    {
+      "implements": "part:@sanity/base/brand-logo",
+      "path": "./logo/myLogo.js"
+    },
+    {
+      "implements": "part:@sanity/base/theme/variables/override-style",
+      "path": "./styles/variables.css"
     }
   ]
 }
