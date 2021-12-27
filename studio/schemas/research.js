@@ -40,7 +40,7 @@ export default {
         type: 'reference',
         to: [{type: 'member'}]
       }],
-       hidden: ({document}) => !document?.show_associated_member
+    //   hidden: ({document}) => !document?.show_associated_member
     },
 
 ]
