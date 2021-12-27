@@ -1,4 +1,4 @@
-# A studio for managing a website
+# Rubidium Web studio for managing Academic websites
 
 **Features:**
 
