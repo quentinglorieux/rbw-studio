@@ -11,7 +11,7 @@ export default {
     {
       name: 'Second_title',
       type: 'string',
-      title: 'Second Title'
+      title: 'Third Title'
     },
     {
       name: 'slug',
